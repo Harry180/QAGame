@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QA", "QA\QA.csproj", "{7754A5B7-340D-4301-82B2-44AAFD84DCAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.Domain", "QA.Domain\QA.Domain.csproj", "{CC0F1807-1BE5-4564-AA3C-5B389A000CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.WebApi", "QA.WebApi\QA.WebApi.csproj", "{F9820B6F-B5CB-4E1E-BD74-C8A5861FD5FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{7754A5B7-340D-4301-82B2-44AAFD84DCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7754A5B7-340D-4301-82B2-44AAFD84DCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7754A5B7-340D-4301-82B2-44AAFD84DCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0F1807-1BE5-4564-AA3C-5B389A000CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0F1807-1BE5-4564-AA3C-5B389A000CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0F1807-1BE5-4564-AA3C-5B389A000CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0F1807-1BE5-4564-AA3C-5B389A000CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9820B6F-B5CB-4E1E-BD74-C8A5861FD5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9820B6F-B5CB-4E1E-BD74-C8A5861FD5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9820B6F-B5CB-4E1E-BD74-C8A5861FD5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9820B6F-B5CB-4E1E-BD74-C8A5861FD5FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
